@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:
+  grow_bot:
+    build:
+      context: ./
+    restart: always
+    container_name: grow_bot
+    env_file:
+      - ./.env

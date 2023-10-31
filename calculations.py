@@ -3,3 +3,7 @@ def calculate_light(width: float, depth: float) -> tuple[float]:
     LED_min = square*300
     LED_max = square*400
     return square, int(LED_min), int(LED_max)
+
+
+if __name__ == '__main__':
+    pass
